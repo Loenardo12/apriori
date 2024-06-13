@@ -1,0 +1,203 @@
+/* CSS Document */
+.header {
+	border:1px solid #CCC;
+	height:100px;
+	width:750px;
+	margin-left:200px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border-radius: 8%;
+	background:linear-gradient(to top, #CCC, #999 );
+	}
+.imgheader {
+	margin-left:200px;
+	height:10px;
+	width:752px;
+	}
+.konten {
+	border:1px solid #CCC;
+	min-height:350px;
+	width:730px;
+	margin-left:200px;
+	padding-top:-111px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:-20px;
+	}
+.footer {
+	position:inherit;
+	bottom:220px;
+	border:1px solid #CCC;
+	height:40px;
+	width:750px;
+	margin-left:200px;
+	background:linear-gradient(to top, #CCC, #999 );
+	}
+.menu {
+	position:relative;
+	border:1px solid #CCC;
+	height:40px;
+	margin-left:200px;
+	width:700px;
+	padding-left:50px;
+	background:linear-gradient(to top, #CCC, #999 );
+	}
+.logo {
+	position:absolute;
+	top:50px;
+	left:20px;
+	border:2px solid #CCC;
+	height:120px;
+	width:120px;
+	margin-left:200px;
+	border-radius: 50%;
+	border-right:4px solid #999;
+	border-bottom:3px solid #999;
+	}
+#imgslide {
+	position:absolute;
+	top:50px;
+	left:20px;
+	border:2px solid #CCC;
+	height:120px;
+	width:120px;
+	margin-left:200px;
+	border-radius: 50%;
+	border-right:4px solid #999;
+	border-bottom:3px solid #999;
+	}
+.logo img {
+	border-radius: 50%;
+	}
+/* begin Menu */
+/* menu structure */
+.art-postheader { color:#06F; line-height:30px; outline-color:#009; border-bottom:1px solid #6CC;}
+
+.art-hmenu a, .art-hmenu a:link, .art-hmenu a:visited, .art-hmenu a:hover
+{
+    outline: none;
+}
+
+.art-hmenu, .art-hmenu ul
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  display: block;
+}
+
+.art-hmenu li
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background:#CCC;
+  margin-left:1px;
+  border-radius: 50%;
+  padding:3px 23px 3px 23px;
+}
+
+.art-hmenu li:hover
+{
+  z-index: 10000;
+  white-space: normal;
+}
+
+.art-hmenu li li
+{
+  float: none;
+}
+
+.art-hmenu ul
+{
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background: none;
+  min-height: 0;
+  background-image: url('images/spacer.gif');
+  padding: 10px 30px 30px 30px;
+  margin: -10px 0 0 -30px;
+}
+
+.art-hmenu li:hover>ul
+{
+  visibility: visible;
+  top: 100%;
+}
+
+.art-hmenu li li:hover>ul
+{
+  top: 0;
+  left: 100%;
+}
+
+.art-hmenu:after, .art-hmenu ul:after
+{
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+}
+.art-hmenu{
+  min-height: 0;
+  position:relative;
+  padding: 6px 6px 6px 6px;
+}
+
+.art-hmenu ul ul
+{
+  padding: 30px 30px 30px 10px;
+  margin: -30px 0 0 -10px;
+}
+
+/* menu structure */
+
+.art-nav
+{
+  position: relative;
+  margin:0 auto;
+  min-height: 38px;
+  z-index: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.art-nav-outer
+{
+    position:absolute;
+    width:100%;
+}
+
+.art-nav-l, .art-nav-r
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 100%;
+  background-image: url('images/nav.png');
+}
+
+.art-nav-l
+{
+  left: 0;
+  right: 5px;
+}
+
+.art-nav-r
+{
+  right: 0;
+  width: 1192px;
+  clip: rect(auto, auto, auto, 1187px);
+}
+
+/* end Menu */
+
